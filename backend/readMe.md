@@ -160,44 +160,16 @@ src/
 
 ---
 
-# ⚙️ Installation & Setup
-
-## 1️⃣ Clone the repository
-
-```
-git clone <your-repo-url>
-cd backend
-```
-
-## 2️⃣ Install dependencies
-
-```
-npm install
-```
-
-## 3️⃣ Setup environment variables
-
-Create a `.env` file:
-
-```
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_ACCESS_SECRET=your_access_secret
-JWT_REFRESH_SECRET=your_refresh_secret
-```
-
-## 4️⃣ Run the server
-
-```
-npm run dev
-```
-
----
-
 # 📡 API Base URL
 
+## Local URL
 ```
 http://localhost:8080/api/v1
+```
+
+## Deployed URL
+```
+https://flow-board-project-management-platform.onrender.com
 ```
 
 ---
@@ -313,7 +285,7 @@ Response:
 ---
 
 # 🧠 Architecture
-
+****
 This project follows:
 
 * **Controller → Service → Repository pattern**
@@ -347,6 +319,4 @@ This backend is:
 * ✔ Production-ready (core level)
 * ✔ Ready for frontend integration
 
----
-
-👉 Next Step: Build the **Frontend (React)** 🚀
+---****
